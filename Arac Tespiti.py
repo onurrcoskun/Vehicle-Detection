@@ -1,8 +1,6 @@
 import cv2
-
 cars="cars.xml"
 video='araç.mp4'
-
 cam=cv2.VideoCapture(video)
 cars_detector=cv2.CascadeClassifier(cars)
 
